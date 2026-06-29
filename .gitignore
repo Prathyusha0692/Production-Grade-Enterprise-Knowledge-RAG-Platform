@@ -42,3 +42,10 @@ Thumbs.db
 .env
 *.env
 secrets.json
+
+# Azure / mounted data paths
+abfss*/
+**/abfss*/
+**/rag-data@yourstorageaccount.dfs.core.windows.net/
+**/rag-data@yourstorageaccount.dfs.core.windows.net/**
+
